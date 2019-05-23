@@ -1,6 +1,7 @@
 # Mutant Detector
 
 _Se desarrolla ejercicio de examen tecnico en proceso de selección para empresa_
+_Este consiste en realizar una API la cual responde a 2 tiempos de peticiones evaluando los datos enviados(POST: '/mutant' ->recibe un json) y retornando lo pedido(GET: '/stats')_
 
 ### Pre-requisitos 📋
 
