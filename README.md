@@ -3,6 +3,7 @@
 _Se desarrolla ejercicio de examen tecnico en proceso de selección para empresa_
 _Este consiste en realizar una API la cual responde a 2 tiempos de peticiones evaluando los datos enviados(POST: '/mutant' ->recibe un json) y retornando lo pedido(GET: '/stats')_
 
+
 ### Pre-requisitos 📋
 
 _Tener instalado node.js y mysql_
@@ -52,3 +53,5 @@ _En estas pruebas enviamos datos de prueba y valor esperado a los metodos que se
 const dna = ["ATGCGA", "CAGTGC", "TTATGT", "AGAAGG", "CCCCTA", "TCACTG"];
 test(dna, true);
 ```
+## Probando API
+_https://mutants-detector.herokuapp.com/stats_
