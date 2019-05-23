@@ -1,0 +1,21 @@
+{
+  "name": "mutantsdetector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/tests.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.0",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
