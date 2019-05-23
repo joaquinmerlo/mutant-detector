@@ -33,7 +33,7 @@ _Hecho eso, podemos continuar a configurar la conexion a nuestra base de datos_
 _Para ello debemos ingresar en el archivo src/dbConnection.js y modificar los valores_
 
 ```
-const mysqlConnection = mysql.createConnection({
+const db_config = {
     host: 'localhost',
     user: 'myuser',
     password: 'mypass',
