@@ -26,6 +26,11 @@ router.get('/stats', (req, res) => {
 
 })
 
+router.get('/', (req, res) => {
+    const welcome = "Bienvenido a la API! Puedes consultar /stats o enviar un ADN por POST en /mutant !";
+    res.send(welcome);
+})
+
 function insertHuman(dna, ismutant) {
     const query = 'INSERT INTO humans_dna (dna,mutant) values (?,?)';
     mysqlConnection.query(query, [dna, ismutant], (err) => {
